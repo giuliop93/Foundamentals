@@ -1,0 +1,51 @@
+.container {
+  height: 500px;
+  width: 600px;
+  background-color: green;
+  position: relative;
+}
+.second.container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+}
+.red1 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  top: 0;
+  left: 0
+}
+.red2 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.third.container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+}
+.red3 {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  top: 0;
+  left: 0
+}
+.red4 {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  left: 20px
+}

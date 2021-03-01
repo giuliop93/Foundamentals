@@ -1,0 +1,112 @@
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  color: white
+}
+.logo {
+  width: 150px;
+}
+.logo-text {
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 40px;
+  width: 300px;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+h3 > span {
+  color: black;
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 5px;
+}
+hr {
+  border-color: white;
+}
+
+span{
+  color: black
+}
+
+a {
+  text-decoration: none;
+}
+a::before {
+  content: "\2606";
+  color: red;
+}
+
+.star::after {
+  content: "\2606";
+  color: red
+}
+.star:hover{
+  color: yellow;
+}
+
+#star::before {
+    content: "\2606";
+    color: red;
+}
+.row-left:hover #star::before{
+  color: yellow;
+}
+
+.row-left:hover a::before{
+  color: yellow;
+}
+
+.fa-star:hover {
+  color: orange;
+}
+
+.star4 {
+  color: red;
+}
+.row-left:hover .star4 {
+  color: yellow
+}
+
+#except {
+  color: blue;
+}
+.star5:hover #except {
+  color: red;
+}
+
+.email {
+  border-bottom: 1px solid black
+}
+.email.unread {
+  background-color: lightgrey;
+}
+.email.read {
+  background-color: white
+}
+.row-left, .row-right {
+  display: inline-block;
+}
+.row-left{
+  width: 30%;
+}
+.row-right{
+  width: 68%;
+}
+.email .body {
+  color: grey
+}
+.email .body:after {
+  content: '...';
+}
+footer {
+  text-align: center;
+}
+h4 > span {
+  font-style: italic;
+  color: white
+}

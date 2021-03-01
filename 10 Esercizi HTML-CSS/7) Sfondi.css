@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url('immagini/roma.jpg');
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+  position:relative;
+  border: 1px solid black;
+}
+.city {
+  font-size: 20px;
+  line-height: 40px;
+  width: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.background2 {
+  background-image: url('immagini/Sunset.jpg');
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+}
+
+.background2 > #Sunset {
+  position: absolute;
+  padding: 5px;
+  top: 50%;
+}

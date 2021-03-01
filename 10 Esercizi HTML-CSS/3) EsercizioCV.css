@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url('immagini/roma.jpg');
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.id-nome {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#nome {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 200px;
+}
+
+hr {
+  border-color: lightgreen;
+}
+
+.section-title {
+  color: green;
+  font-style: italic;
+}
+main {
+  padding: 8px
+}

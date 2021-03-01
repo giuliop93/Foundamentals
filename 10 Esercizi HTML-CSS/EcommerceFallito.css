@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(234,224,200);
+}
+.megacontainer {
+  height: 650px;
+  width: 800px;
+  position: relative;
+  background-color: lightgrey
+  }
+.row1 {
+  height: 325px;
+  display: inline-block;
+  background-color: white;
+  }
+.container {
+   height: 300px;
+    width: 240px;
+    position:relative;
+    background-color: white
+  }
+.container > .discount30 {
+  height: 25px;
+  width: 40px;
+  line-height: 25px;
+  background-color: green;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+.container > .discount5 {
+  height: 25px;
+  width: 40px;
+  line-height: 25px;
+  background-color: red;
+  position:absolute;
+  text-align: center;
+  top: 0;
+  right: 0
+}
+.row2 {
+  height: 325px;
+  display: inline-block;
+  background-color: white
+}
+.heart{
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+  color: red;
+  display: none;
+}
+.container:hover .heart{
+  display: block;
+  text-align: center;
+}

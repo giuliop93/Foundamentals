@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+  color: white
+}
+.logo {
+  width: 150px;
+}
+.logo-text {
+  font-size: 40px;
+  display: inline-block;
+  color: white
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+#unread-count {
+  color: black;
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 5px
+}
+hr {
+  border-color: white;
+}
+span{
+  color: black
+}
+.unread{
+  background-color: lightgrey;
+  }
+.read{
+  background-color: white
+}
+.row-left{
+  width: 30%;
+  display: inline-block;
+}
+.row-right{
+  width: 68%;
+  display: inline-block;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+#powered {
+  font-style: italic;
+  color: white
+}
